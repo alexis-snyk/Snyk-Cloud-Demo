@@ -1,14 +1,14 @@
 #Company Name
 
 #CHANGE THIS - lower case only
-variable "acgdemo" {
+variable "victim_company" {
   type        = string
   description = "For naming purposes"
   default     = "testpatch"
 }
 
 #CHANGE THIS
-variable "master" {
+variable "owner" {
   type        = string
   description = "For Tagging and Filtering purposes"
   default     = "Patch"
